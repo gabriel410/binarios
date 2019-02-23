@@ -23,7 +23,7 @@ trap ctrl_c 2
 	printf "$Y"
 	echo -e "$C   [1] $Y viruz.apk            $C [2] $Y binario"
 	echo -e "$C   [3] $Y cadena bina..        $C [4] $Y conjela-grupos"
-	echo -e "$C   [5] $Y +Nota                $C [6] $Y CMD"
+	echo -e "$C   [5] $Y +Nota"
 	echo -e "$C   [10] $R Salir $B"
 	echo
 	echo
@@ -117,21 +117,6 @@ trap ctrl_c 2
 		read enter
 		binarios
 
-	
-	elif [ $SIGN -eq '6' ]; then
-		printf "$C Espera... \\n"
-		echo
-		echo
-		cd $PREFIX/bin/modulos
-		sleep 5
-		bash $PREFIX/bin/modulos/Grayy.jpg
-		echo
-		printf "$G \n \t Listoo!!"
-		echo
-		printf "$C presiona en $G enter $C para continuar"
-		read enter
-		echo
-		binarios
 
 	elif [ $SIGN -eq '10' ]; then
 	        echo
