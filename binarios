@@ -21,8 +21,8 @@ trap ctrl_c 2
 	echo -e "       $B SuperEagleHack"
 	echo
 	printf "$Y"
-	echo -e "$C   [1] $Y viruz.apk            $C [2] $Y binario"
-	echo -e "$C   [3] $Y cadena bina..        $C [4] $Y conjela-grupos"
+	echo -e "$C   [1] $Y virus.apk            $C [2] $Y binario"
+	echo -e "$C   [3] $Y cadena bina..        $C [4] $Y congela-grupos"
 	echo -e "$C   [5] $Y +Nota"
 	echo -e "$C   [10] $R Salir $B"
 	echo
